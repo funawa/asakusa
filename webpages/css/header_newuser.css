@@ -48,3 +48,20 @@ a {
    margin: 0 0 0 15px;
    font-size: 14px;
 }
+
+.btn-signup {
+  display: inline-block;
+  height: 40px;
+  width: 80px;
+  margin: 0 0 0 15px;
+  border: solid 2px black;
+  border-radius: 3px;
+  transition: .4s;
+  color: #f6f6f6;
+  background: black;
+  text-decoration: none;
+}
+.btn-signup:hover {
+  background: #f6f6f6;
+  color: black;
+}
