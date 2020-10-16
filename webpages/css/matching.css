@@ -108,39 +108,6 @@
     color: #C7D0E1;
 }
 
-button.contact
-{
-    margin: 0 auto;
-    text-align: center;
-    margin-top: -15px;
-    width: 100%;
-    height: 35px;
-    display: block;    
-    border:none;
-    background-color: transparent;
-    font-family: inherit;
-    color: white;
-    background-color: #C7D0E1;
-    font-size:12px;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition:    all 0.3s ease-in-out;
-    -o-transition:      all 0.3s ease-in-out;
-    -ms-transition:     all 0.3s ease-in-out;
-}
-
-button.contact:hover
-{
-    cursor: pointer;
-    background-color:#979da8;
-}
-
-button.contact:focus
-{
-    outline: 0;
-}
-
-
 .matching{
   margin: 10px 0 10px 0;
   padding: 20px 0;
@@ -166,6 +133,10 @@ button.contact:focus
 .btn-matching:hover {
   background: black;
   color: #f6f6f6;
+  outline : 1px solid #FFFFFF;
+  outline-offset : -5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 
